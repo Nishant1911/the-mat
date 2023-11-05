@@ -48,8 +48,8 @@ body{
     text-transform: uppercase;
 }
 .h2, h2 {
-    font-size: 56px;
-    line-height: 54px;
+    font-size: 42px;
+    line-height: 50px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--e-global-color-primary);
@@ -2695,7 +2695,7 @@ p {
     padding: 56px 50px;
     background-image: linear-gradient(to right, var(--e-button-gradient-1) 0%, var(--e-button-gradient-2) 100%);
     transition: all 0.3s ease-in-out;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 .form_style::placeholder{
@@ -2830,6 +2830,8 @@ p {
 	background-color:green;
 	color:#FFF;}						
 .sticky-icon a i {
+    /* z-index: 111111;
+    position: relative; */
 	background-color:#FFF;
 	height:40px;
 	width:40px;

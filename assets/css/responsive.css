@@ -874,6 +874,11 @@ button:focus { outline: none;}
 .sub-banner .banner-section .banner_content .blog-rightcircle {top: -46px;}
 }
 @media only screen and (max-width : 767px){
+    .sticky-icon {
+        z-index: 2;
+        position: fixed;
+        top: 30%;
+    }
 h1 {font-size: 42px; line-height: 48px;}
 h2 {font-size: 30px; line-height: 36px;}
 h3 {font-size: 18px; line-height: 22px;}
